@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
+
+    <title>Document</title>
+</head>
+<body id="body" class="<?php echo $class; ?>">
+
+    <div class="header">
+        <div id="nav_bar" class="nav_bar">
+            <div class="nav_bar_left">
+                <a href="#" class="nav_elem line line1">Главная</a>
+                <a href="#about" class="nav_elem line bold">Каталог</a>
+                <a href="#zav" class="nav_elem line">Реализация</a>
+                <a href="#" class="nav_elem line">Под ключ</a>
+                <a href="#zav" class="nav_elem">Контакты</a>
+            </div>
+            <div class="nav_bar_right">рус</div>
+        </div>
+        <div id="burger" class="burger">
+            <div class="burger__line"></div>
+            <div class="burger__line"></div>
+            <div class="burger__line"></div>
+        </div>
+        
+    </div>
+    <div class="first">
+        <div class="container">
+            <div class="lside">
+                <div class="image"></div>
+                <div class="social">
+                    <p>ищите нас тут:<p>
+                        <div class="palki"></div>
+                        <div class="whatsapp"></div>
+                        <div class="palki"></div>
+                        <div class="instagramm"></div>
+                        <div class="palki"></div>
+                    </div>
+                </div>
+                <div class="rside">
+                        <img src="img/buter1.jpg" alt="">
+                        <img src="img/buter2.jpg" alt="">
+                        <img src="img/buter3.jpg" alt="">       
+            </div>
+        </div>
+             <div class="blog">
+              <hr></hr>
+              </div>
+              <div class="container1">
+                  <div class="left" style="margin-left: 25px;">
+                    <div class="left2">
+                      <div class="opt"></div>
+                      <p>Оптимальные сроки</p>
+                  </div>
+                  <div class="left3">
+                      <div class="mob"></div>
+                      <p>Мобильные павильоны</p>
+                   </div>   
+                  </div>
+                  <div class="right" style="margin-left: 25px;">
+                    <div class="right2">
+                      <div class="ka4"></div>
+                      <p>Качество</p>
+                  </div>
+                  <div class="right3">
+                      <div class="bez"></div>
+                      <p>Без фундамента</p>
+                  </div>
+                  </div>
+                </div>
+              <div class="blog">
+              <hr></hr>
+              </div>
+    </div>
+
+   
+        <script src="main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="slick/slick.min.js"></script>
+
+    
+
+    <script>
+        $('.rside').slick({
+            dots: true
+            });
+    </script>
+    </html>
